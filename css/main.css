@@ -144,10 +144,10 @@ a:hover {
   opacity: 0;
 }
 #hero-area {
-  background: url('../images/silder.jpg') no-repeat 50%;
+  background: url('../images/slider.jpg') no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
-  padding: 230px 0;
+  padding: 240px 0;
   color: #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -185,7 +185,7 @@ a:hover {
   margin-top: 25px;
 }
 #hero-area .btn {
-  background: #414141;
+  background: #169776;
   border: none;
   color: #fff;
   padding: 20px 35px;
@@ -195,8 +195,23 @@ a:hover {
   line-height: 1em;
   text-transform: uppercase;
   letter-spacing: normal;
-  border-radius: 0;
+  border-radius: 50px;
 }
+
+#hero-area .btn:hover{
+  background: #169776 ;
+  border: none;
+  color: #fff;
+  padding: 20px 35px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-size: 13px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 50px;
+}
+
 #call-to-action {
   background: #02bdd5;
   background-size: cover;
@@ -260,6 +275,9 @@ a:hover {
   padding: 80px 0;
   background: #FCFCFC;
 }
+
+
+
 .works .block {
   position: relative;
   z-index: 99;
