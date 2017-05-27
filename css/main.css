@@ -65,7 +65,7 @@ a:hover {
   font-weight: 300;
 }
 .pages {
-  padding: 80px 0 40px;
+  padding: 20px 0 40px;
 }
 .moduler {
   padding: 140px 0;
@@ -87,7 +87,7 @@ a:hover {
 .navbar-header .navbar-brand a {
   height: auto;
   display: inline-block;
-  margin-top: 8px;
+  margin-top: -13px;
 }
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle {
@@ -251,10 +251,10 @@ a:hover {
   margin-right: 10px;
 }
 #about {
-  padding: 110px 0;
+  padding: 25px 0;
 }
 #about .block {
-  padding: 20px 30px 0 30px;
+  padding: 0px 0px 0px 0px;
 }
 #about .block h2 {
   font-size: 24px;
@@ -272,7 +272,7 @@ a:hover {
   max-width: 100%;
 }
 .works {
-  padding: 80px 0;
+  padding: 0px 0;
   background: #FCFCFC;
 }
 
@@ -386,17 +386,23 @@ figure figcaption {
   padding: 20px 25px;
   margin-top: 0;
   color: #666;
+    
+
 }
 figure figcaption h4 {
   margin: 0;
+    text-align: center;
 }
 figure figcaption h4 a {
   color: #02bdd5;
+    
+    
 }
 figure figcaption p {
   font-size: 14px;
   margin-bottom: 0;
   margin-top: 5px;
+     text-align: center;
 }
 #feature {
   padding: 80px 0;
@@ -1106,4 +1112,63 @@ article {
   padding: 8px 0;
   color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.tcb-quote-carousel{
+    background: #fafafa;
+    padding-top: 30px;
+    margin-top: 40px;
+    } 
+    
+    .quote{
+        color: rgba(0,0,0,.1);
+        text-align: center;
+        margin-bottom: 30px;
+    }    
+    .carousel {
+      padding-bottom: 20px;
+        } 
+        .carousel-indicators > li {
+          background-color: #e84a64;
+            border-color: #e84a64;
+          
+        }
+    }
+    blockquote {
+        margin-top: 15px;
+        text-align: center;
+        border: none;
+    }
+    .profile-circle {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 100px;
+    }
+}
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
 }
