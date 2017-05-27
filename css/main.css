@@ -213,10 +213,10 @@ a:hover {
 }
 
 #call-to-action {
-  background: #02bdd5;
+  background: #169776;
   background-size: cover;
   background-attachment: fixed;
-  padding: 80px 0;
+  padding: 10px 0;
   text-align: center;
   position: relative;
   color: #fff;
@@ -237,15 +237,15 @@ a:hover {
   margin-top: 20px;
 }
 #call-to-action .block .btn-contact {
-  background: #fff;
+  background: #fcd93b;
   border: none;
-  color: #02bdd5;
+  color: #169776;
   padding: 16px 35px;
   margin-top: 20px;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 50px;
 }
 #call-to-action .block .btn-contact i {
   margin-right: 10px;
@@ -572,9 +572,9 @@ ul.social-icons li {
 .global-page-header {
   background-attachment: fixed;
   background-size: cover;
-  padding: 120px 0 25px 0;
+  padding: 110px 0 5px 0;
   position: relative;
-  background: #02bdd5;
+  background: #169776;
   color: #fff;
 }
 .global-page-header h2 {
@@ -1116,9 +1116,9 @@ article {
 
 
 .tcb-quote-carousel{
-    background: #fafafa;
-    padding-top: 30px;
-    margin-top: 40px;
+    background: #fff;
+    padding-top: 0px;
+    margin-top: -40px;
     } 
     
     .quote{
@@ -1134,7 +1134,7 @@ article {
             border-color: #e84a64;
           
         }
-    }
+    
     blockquote {
         margin-top: 15px;
         text-align: center;
@@ -1147,28 +1147,7 @@ article {
         overflow: hidden;
         border-radius: 100px;
     }
-}
-.carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-        }
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-        }
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-        }
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        }
-    }
-}
+
+
+    
+
