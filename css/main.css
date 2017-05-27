@@ -27,6 +27,10 @@ ul li {
 h2 {
   font-size: 26px;
 }
+
+h9 {
+  font-size: 26px;
+}
 a:hover {
   text-decoration: none;
 }
@@ -140,18 +144,18 @@ a:hover {
   opacity: 0;
 }
 #hero-area {
-  background: url('../images/slider.jpg') no-repeat 50%;
+  background: url('../images/silder.jpg') no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 230px 0;
   color: #fff;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 #hero-area:before {
   content: '';
   z-index: 9;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.4);
   position: absolute;
   top: 0;
   left: 0;
