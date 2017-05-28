@@ -227,29 +227,43 @@
 
 
 
+ <section id="section3" class="section-margine section3-background">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-lg-3">
+        <div class="section-3-box">
+         
+          <h3><span class="counter">300</span>+</h3>
+          <h4>Clientes Satisfeitos</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="section-3-box">
+          
+          <h3><span class="counter">500</span>+</h3>
+          <h4>Horas de Bubble Football</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="section-3-box">
+          
+          <h3><span class="counter">100</span>+</h3>
+          <h4>Festas de Aniversário</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="section-3-box">
+          
+          <h3><span class="counter">1000</span>+</h3>
+          <h4>Cambalhotas Dadas</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-
-        <!-- 
-        ================================================== 
-            Call To Action Section Start
-        ================================================== -->
-        <section id="call-to-action">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">INTERESTED IN WORKING TOGETHER? ?</h1>
-                            <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,</br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                            <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-
+       
         <!-- 
         ================================================== 
             Footer Section Start
@@ -287,7 +301,19 @@
                 </div>
             </div>
         </footer> <!-- /#footer -->
-    
+    <script> 
+    $('.counter').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 60000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
     </body>
 </html>
 

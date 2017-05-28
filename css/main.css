@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -72,7 +73,7 @@ a:hover {
   padding: 140px 0;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #02bdd5;
+  color: #169776;
 }
 .navbar.navbar-default {
   border: 0;
@@ -127,7 +128,7 @@ a:hover {
   text-transform: uppercase;
 }
 #top-bar .main-menu li a:hover {
-  color: #02bdd5;
+  color: #169776;
 }
 .navbar-custom .nav li > a {
   position: relative;
@@ -392,9 +393,10 @@ figure figcaption {
 figure figcaption h4 {
   margin: 0;
     text-align: center;
+    margin-bottom: 4%;
 }
 figure figcaption h4 a {
-  color: #02bdd5;
+  color: #169776;
     
     
 }
@@ -405,7 +407,8 @@ figure figcaption p {
      text-align: center;
 }
 #feature {
-  padding: 80px 0;
+  padding-top: 7% ;
+    padding-bottom: 2%;
 }
 #feature .media {
   margin: 0px 0 70px 0;
@@ -441,10 +444,78 @@ figure figcaption p {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  text-shadow: #00a4ba 1px 1px, #00a4ba 2px 2px, #00a4ba 3px 3px, #00a4ba 4px 4px, #00a4ba 5px 5px, #00a4ba 6px 6px, #00a4ba 7px 7px, #00a4ba 8px 8px, #00a4ba 9px 9px, #00a4ba 10px 10px, #00a4ba 11px 11px, #00a4ba 12px 12px, #00a4ba 13px 13px, #00a4ba 14px 14px, #00a4ba 15px 15px, #00a4ba 16px 16px, #00a4ba 17px 17px, #00a4ba 18px 18px, #00a4ba 19px 19px, #00a4ba 20px 20px, #00a4ba 21px 21px, #00a4ba 22px 22px, #00a4ba 23px 23px, #00a4ba 24px 24px, #00a4ba 25px 25px, #00a4ba 26px 26px, #00a4ba 27px 27px, #00a4ba 28px 28px, #00a4ba 29px 29px, #00a4ba 30px 30px, #00a4ba 31px 31px, #00a4ba 32px 32px, #00a4ba 33px 33px, #00a4ba 34px 34px, #00a4ba 35px 35px, #00a4ba 36px 36px, #00a4ba 37px 37px, #00a4ba 38px 38px, #00a4ba 39px 39px, #00a4ba 40px 40px, #00a4ba 41px 41px, #00a4ba 42px 42px, #00a4ba 43px 43px, #00a4ba 44px 44px, #00a4ba 45px 45px, #00a4ba 46px 46px, #00a4ba 47px 47px, #00a4ba 48px 48px, #00a4ba 49px 49px, #00a4ba 50px 50px, #00a4ba 51px 51px, #00a4ba 52px 52px, #00a4ba 53px 53px, #00a4ba 54px 54px, #00a4ba 55px 55px, #00a4ba 56px 56px, #00a4ba 57px 57px, #00a4ba 58px 58px, #00a4ba 59px 59px, #00a4ba 60px 60px, #00a4ba 61px 61px, #00a4ba 62px 62px, #00a4ba 63px 63px, #00a4ba 64px 64px, #00a4ba 65px 65px, #00a4ba 66px 66px, #00a4ba 67px 67px, #00a4ba 68px 68px, #00a4ba 69px 69px, #00a4ba 70px 70px, #00a4ba 71px 71px, #00a4ba 72px 72px, #00a4ba 73px 73px, #00a4ba 74px 74px, #00a4ba 75px 75px, #00a4ba 76px 76px, #00a4ba 77px 77px, #00a4ba 78px 78px, #00a4ba 79px 79px, #00a4ba 80px 80px, #00a4ba 81px 81px, #00a4ba 82px 82px, #00a4ba 83px 83px, #00a4ba 84px 84px, #00a4ba 85px 85px, #00a4ba 86px 86px, #00a4ba 87px 87px, #00a4ba 88px 88px, #00a4ba 89px 89px, #00a4ba 90px 90px, #00a4ba 91px 91px, #00a4ba 92px 92px, #00a4ba 93px 93px, #00a4ba 94px 94px, #00a4ba 95px 95px, #00a4ba 96px 96px, #00a4ba 97px 97px, #00a4ba 98px 98px, #00a4ba 99px 99px, #00a4ba 100px 100px;
+    border-bottom: 2px solid transparent;
+     border-right: 2px solid transparent;
+     border-top: 2px solid transparent;
+     border-bottom: 2px solid black;
+  
 }
+
+#feature .icon1 {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fcd93b;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  font-size: 50px;
+  line-height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+    border-bottom: 2px solid transparent;
+     border-right: 2px solid transparent;
+     border-top: 2px solid transparent;
+     border-left: 2px dotted #169776;
+  
+}
+
+#feature .icon2 {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fcd93b;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  font-size: 50px;
+  line-height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+    border-bottom: 2px solid transparent;
+     border-right: 2px solid transparent;
+     border-top: 2px dotted #169776;
+      border-left: 2px dotted #169776;
+  
+}
+
+#feature .icon3 {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fcd93b;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  font-size: 50px;
+  line-height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+    border-bottom: 2px dotted #169776;
+     border-right: 2px dotted #169776;
+     border-top: 2px dotted #169776;
+      border-left: 2px dotted #169776;
+  
+}
+
 #contact-section {
-  padding: 90px 0;
+  padding: 40px 0;
 }
 #contact-section .contact-form {
   margin-top: 42px;
@@ -453,10 +524,10 @@ figure figcaption p {
   margin-top: 35px;
   color: #fff;
   outline: none;
-  background: #02bdd5;
+  background: #169776;
 }
 #contact-section .contact-form .btn-send:hover {
-  border: 1px solid #02bdd5;
+  border: 1px solid #f2a736;
 }
 #contact-section input {
   display: block;
@@ -657,7 +728,7 @@ ul.social-icons li {
   border-bottom: 1px solid #dedede;
   padding-top: 30px;
   position: relative;
-  webkit-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0);
@@ -1015,6 +1086,7 @@ article {
 }
 .gallery {
   padding: 100px;
+    padding-bottom: 1px;
 }
 .gallery figure .buttons {
   left: 40%;
@@ -1158,4 +1230,51 @@ border-color: #169776;
   border-radius: 50px;
 }
     
+.botao1:hover {
+  background:#169776 ;
+  border: solid;
+border-color: #169776;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 50px;
+    padding: 1%;
+
+
+}
+    
+.botao1{
+  background: #fcd93b ;
+  border: solid;
+border-color: #fcd93b;
+  color: #fafafa;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 50px;
+    padding: 1%;
+
+
+}
+    
+/************************************
+08)Section 3
+*************************************/
+.section3-background{ background: #169776;width: 100%;}
+.section-3-box{padding:10px 0; 
+    text-align:center;
+}
+.section-3-box figure {
+    color:#f2a736; 
+    background-color: #169776;
+    box-shadow: none;
+} 
+.section-3-box h3{ font-size:30px; color:#fff;}
+.section-3-box h4{ font-size:15px; color:#fafafa; margin-bottom:0px;}
+
+.section-3-box i {
+  font-size: 45px;
+  color: #fcd93b;
+    }
+
+
 
