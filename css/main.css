@@ -37,6 +37,7 @@ a:hover {
 .section-heading {
   text-align: center;
   margin-bottom: 65px;
+    margin-top: -60px;
 }
 .section-heading p {
   font-size: 14px;
@@ -120,7 +121,6 @@ a:hover {
 #top-bar .main-menu li a {
   font-size: 14px;
   font-weight: 500;
-  border-bottom: 2px solid transparent;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
@@ -1148,6 +1148,14 @@ article {
         border-radius: 100px;
     }
 
-
+.botao {
+  background: transparent ;
+  border: solid;
+border-color: #169776;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 50px;
+}
     
 
