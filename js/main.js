@@ -77,7 +77,7 @@ $(document).ready(function(){
         items : 5,
         autoplay: true,
 
-    })
+    });
 
 });
 
@@ -105,9 +105,6 @@ $(".fancybox").fancybox({
         }
     }
 });
-
-
-
 
 
 

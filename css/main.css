@@ -145,14 +145,19 @@ a:hover {
   opacity: 0;
 }
 #hero-area {
-  background: url('../images/slider.jpg') no-repeat 50%;
+  background: url('../images/puto2.jpg') no-repeat 50% ;
   background-size: cover;
   background-attachment: fixed;
-  padding: 240px 0;
+  padding-top:18%;
+     
   color: #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   position: relative;
+    height: 100vh;
+    width: 100%
 }
+
+
 #hero-area:before {
   content: '';
   z-index: 9;
@@ -170,10 +175,19 @@ a:hover {
 #hero-area h1 {
   font-size: 40px;
   line-height: 50px;
-  color: #333;
+  color: white;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
+    filter: opacity(0.9);
+}
+
+#hero-area h9 {
+ 
+  color: black;
+    filter: opacity(0.7);
+    
+  
 }
 #hero-area h2 {
   font-size: 18px;
@@ -185,6 +199,8 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   margin-top: 25px;
 }
+
+
 #hero-area .btn {
   background: #169776;
   border: none;
@@ -197,10 +213,11 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: normal;
   border-radius: 50px;
+    opacity: 0.8;
 }
 
 #hero-area .btn:hover{
-  background: #169776 ;
+  background: #fcd93b;
   border: none;
   color: #fff;
   padding: 20px 35px;
@@ -211,6 +228,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: normal;
   border-radius: 50px;
+    opacity: 0.8;
 }
 
 #call-to-action {
@@ -514,6 +532,26 @@ figure figcaption p {
   
 }
 
+.icon4 {
+  text-decoration: none;
+  color: #fff;
+  border-color: #fcd93b;
+    border: solid;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  font-size: 50px;
+  line-height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  
+   
+  
+}
+
 #contact-section {
   padding: 40px 0;
 }
@@ -650,7 +688,7 @@ figure figcaption p {
   color: #fcd93b;
 }
 .cd-headline.slide .cd-words-wrapper {
-  color: #02bdd5;
+  color: #fcd93b;
 }
 ul.social-icons {
   height: auto;
@@ -943,6 +981,7 @@ ul.social-icons li {
 }
 .company-description {
   margin-top: 80px;
+  text-align: justify;
 }
 .company-description .block h3 {
   margin-top: 0;
@@ -955,57 +994,88 @@ ul.social-icons li {
 }
 .team-member {
   margin-top: 30px;
+    
 }
 .team-member:hover .team-img img {
   opacity: .8;
 }
 .team-member .team-img {
   position: relative;
+    border-radius: 50px;
 }
 .team-member .team-img .team-pic {
   width: 100%;
+     border-radius: 150px;
 }
 .team-member .team_designation {
   font-size: 13px;
+   text-align: center;
 }
 .team-member h3 {
   color: #02bdd5;
   margin-bottom: 0;
   font-size: 20px;
+text-align: center;
 }
 .team-member p {
   font-size: 14px;
+    text-align: center;
 }
 .team-member .social-icons a {
-  background: #02bdd5;
+  background: #fcd93b ;
   color: #fff;
   padding: 4px 8px;
   display: inline-block;
   font-size: 15px;
+    border-radius: 100px;
 }
+
+.team-member .social-icons a:hover {
+  background: #169776;
+  color: #fff;
+  padding: 4px 8px;
+  display: inline-block;
+  font-size: 15px;
+    border-radius: 100px;
+}
+
 .team-member .social-icons .facebook {
   padding: 4px 12px;
+border-radius: 100px;
 }
+
+.team-member .social-icons .facebook:hover {
+  padding: 4px 12px;
+border-radius: 100px;
+}
+
 .about-feature {
   margin-top: 50px;
 }
 .about-feature .block {
   color: #fff;
   width: 33.33%;
-  padding: 5%;
+  padding: 2%;
   float: left;
 }
 .about-feature .block p {
   font-weight: 300;
+    text-align: justify;
+}
+
+.about-feature .block h2 {
+  font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
 }
 .about-feature .about-feature-1 {
-  background: #02bdd5;
+  background: #fcd93b;
 }
 .about-feature .about-feature-2 {
-  background: #00B0C7;
+  background: #E40066;
 }
 .about-feature .about-feature-3 {
-  background: #00A6BB;
+  background: #009FB7;
 }
 #blog-full-width {
   padding: 40px 0 80px;
